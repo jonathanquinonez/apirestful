@@ -20,7 +20,7 @@ Route::resource('buyers','buyer\BuyerController',['only' => ['index','show']]);
 /**
 * Sellers
 */
-Route::resource('sellers','seller\SellerController',['only' => ['index','show']]);
+Route::resource('sellers1','seller\SellerController',['only' => ['index','show']]);
 /**
 * Products
 */
